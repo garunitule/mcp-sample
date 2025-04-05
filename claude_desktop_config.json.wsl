@@ -1,0 +1,12 @@
+{
+    "mcpServers": {
+        "mcp_sample": {
+            "command": "wsl.exe",
+            "args": [
+                "bash",
+                "-c",
+                "source $HOME/codes/mcp_sample/.venv/bin/activate && $HOME/.local/bin/uv run $HOME/codes/mcp_sample/main.py"
+            ]
+        }
+    }
+}
